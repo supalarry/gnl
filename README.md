@@ -1,5 +1,5 @@
 # gnl
-Given file descriptor, return current line of the file. 
+Given file descriptor, return current line of the file. Thus, if get_next_line would be called within a loop, information in a file descriptor would be read until very end line by line.
 # usage
 Compile library using make -C libft. Then, in your source code use get_next_line function by passing file descriptor and address
 of a pointer that will point to the read line. Compile your source code with get_next_line.c and library in libft folder.
